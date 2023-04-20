@@ -6,7 +6,7 @@ html{
     src: url('./BebasNeue-Regular.ttf');
 }
 *{
-    font-family: 'bebas';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
 a:hover{
