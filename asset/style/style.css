@@ -1,0 +1,215 @@
+html{
+    scroll-behavior: smooth;
+}
+@font-face {
+    font-family: 'bebas';
+    src: url('./BebasNeue-Regular.ttf');
+}
+*{
+    font-family: 'bebas';
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.hv-100{
+    min-height: 75vh;
+}
+.gap-3{
+    gap: 1em;
+}
+.nav-link{
+    color: rgb(194, 194, 194);
+    transition: .3s;
+    margin-left: 1em;
+}
+.register:hover, .nav-link:hover{
+    color: white;
+}
+
+.register{
+    border-radius: .6em;
+    border: solid 2px rgb(194, 194, 194);
+    color: rgb(194, 194, 194);
+    width: 7em;
+    text-align: center;
+}
+.register-2{
+    border-radius: 2em;
+    border: solid 1px rgb(194, 194, 194);
+    color: rgb(194, 194, 194);
+    width: 10em;
+    font-size: 1.2em;
+    text-align: center;
+}
+.navbar-toggle{
+    display: none;
+    background-color: transparent !important;
+    color: white;
+    font-size: 1.5em;
+    padding: 0em;
+}
+.navbar-toggle:focus{
+    outline: none;
+    border: none;
+}
+.bg-app-color{
+    background-color: rgb(34, 34, 34);
+}
+.bg-img{
+    background-image: url(../img/01.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    min-height: 75vh;
+}
+.bg-color{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin-top: 0em !important;
+    background-color: rgba(0, 0, 0, 0.642);
+}
+.banner-content .title{
+    font-size: 4em;
+    font-family: 'bebas';
+    line-height: 1.5em;
+    /* color: white; */
+}
+
+.banner-content .body{
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body small{
+    font-size: .7em;
+    font-weight: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .speaker{
+    max-width: ;
+} */
+
+.banner-content{
+    /* max-width: 50em; */
+    /* background-color: green; */
+}
+img.speaker{
+    max-width: 20em;
+    max-height: 25em;
+    min-height: 20em;
+    border-radius: .4em;
+    margin-bottom: 1em;
+}
+.speaker-content{
+    font-size: 1.5em;
+}
+.bg-content{
+    /* display: flex; */
+    /* place-content: center; */
+}
+.countdown .col-3 sub{
+    font-size: 3em;
+    display: block;
+}
+.countdown .col-3 span{
+    display: block;
+    margin-top: 1.5em;
+}
+
+.countdown .col-3{
+    padding: .3em;
+}
+.countdown .col-3 p{
+    display: block;
+    /* content: ''; */
+    border-radius: .3em;
+    box-shadow: none;
+    /* padding: 1em;
+    height: 4em; */
+}
+.heading::before,.heading::after{
+    width: 20%;
+    height: 2px;
+    border-radius: 1em;
+    content: '';
+    display: inline-block;
+    background-color: rgb(34, 34, 34);
+}
+.heading.section{
+    padding-top: 2em;
+    padding-bottom: 2em;
+    color: white !important;
+}
+.heading.section::after, h3.heading.section::before{
+    background-color: rgb(194, 194, 194) !important;
+}
+.jumbo{
+    min-height: 10em;
+    position: relative;
+}
+.jumbo .container{
+    height: 10em;
+}
+.jumbo h3{
+    font-size: 2em;
+    color: rgba(0, 0, 0, 0.642);
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 100%;
+    justify-content: space-between;
+}
+.jumbo h3::after{
+    display: block;
+    content: '';
+    width: 40vw;
+    height: 2px;
+    background-color: rgb(34, 34, 34);
+}
+@media screen and (max-width: 1000px){
+    
+    .navbar-toggle{
+        display: block !important;
+    }
+    .nav-link{
+        margin-bottom: .5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .hv-100{
+        min-height: 100vh !important;
+    }
+    .bg-img{
+        min-height: 100vh !important;
+    }
+    .banner-content .title{
+        font-size: 2.5em;
+        font-family: 'bebas';
+        line-height: 1.5em;
+        /* color: white; */
+    }
+    
+    .banner-content .body{
+        font-size: 1.1em;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .countdown .col-3 p{
+        display: block;
+        content: '';
+        border-radius: .3em;
+        box-shadow: 2px 2px 10em 1.2em black;
+        padding: 1em;
+        height: 4em;
+    }
+    .jumbo h3{
+        font-size: 1.5em;
+    }
+    .body small{
+        /* font-size: .6em; */
+        /* font-weight: lighter/z; */
+    }
+}
