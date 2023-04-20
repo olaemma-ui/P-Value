@@ -57,7 +57,7 @@ a:hover{
     background-color: rgb(34, 34, 34);
 }
 .bg-img{
-    background-image: url(../img/01.jpg);
+    background-image: url(../img/bg-1.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
