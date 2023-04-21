@@ -5,6 +5,12 @@ html{
     font-family: 'bebas';
     src: url('./BebasNeue-Regular.ttf');
 }
+.flyer{
+    max-width: 20em;
+    display: block;
+    margin: auto;
+    border-radius: 1em;
+}
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
